@@ -13,5 +13,6 @@ namespace ReservationsApi.Models
         public string Phone { get; set; }
         public int VehicledId { get; set; }
         public Vehicle Vehicle { get; set; }
+        public bool IsMailSent { get; set; }
     }
 }
